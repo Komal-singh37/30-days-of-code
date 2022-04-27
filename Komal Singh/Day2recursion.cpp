@@ -13,9 +13,9 @@ return 0;
 int factorial(int n)  
 {  
 if(n<0)  
-return(-1); /*Wrong value*/    
+return(-1); /***Wrong value***/    
 if(n==0)  
-return(1);  /*Terminating condition*/  
+return(1);  /***Terminating condition***/  
 else  
 {  
 return(n*factorial(n-1));      
